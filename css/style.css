@@ -1,0 +1,64 @@
+*{
+		padding:0;
+		margin:0;
+		box-sizing:border-box;
+}
+.container{
+	width:90%;
+	margin:auto;
+}
+
+section{
+	margin:100px 0px;
+}
+
+.row{
+	display:flex;
+	gap:2%;
+}
+
+.col{
+	width:25%;
+	border:0px solid gray;
+	border-radius:10px;
+	box-shadow:0 0 5px 3px gray;
+}
+
+.cont{
+	padding:20px;
+}
+
+.card img{
+	width:100%;
+
+}
+
+
+h1{
+	font-size:35px;
+	letter-spacing:1px;
+	padding-bottom:30px;
+}
+
+.para{
+	font-size:18px;
+	color:gray;
+	position:relative;
+}
+
+.para::after{
+	position:absolute;
+	height:3px;
+	width:100px;
+	background-color:yellow;
+	content:"";
+	right:0;
+	left:50px;
+	top:11px;
+	bottom:0;
+}
+
+h5{
+	font-size:22px;
+	padding-bottom:6px;
+}
